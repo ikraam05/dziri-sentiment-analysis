@@ -39,30 +39,30 @@ Base model:
 DziriBERT
 
 # Evaluation Metrics
-Accuracy
-F1-score
-F1-macro
-Recall
-G-Mean
-Confusion Matrix
+ -Accuracy
+ -F1-score
+ -F1-macro
+ -Recall
+ -G-Mean
+ -Confusion Matrix
 
 
 # Main Results
 Model	           F1-Macro
-Baseline         0.68
-SMOTE       	   0.64
-Focal Loss   	   0.68
+Baseline    -->     0.68
+SMOTE       -->	   0.64
+Focal Loss   	-->   0.68
 
 # Main observation:
 Advanced balancing methods did not significantly improve performance due to the linguistic complexity of Algerian dialect and ambiguity of Neutral tweets.
 
 # Technologies Used
-Transformers
-HuggingFace
-Scikit-learn
-PyTorch
-Matplotlib
-Seaborn
+ -Transformers
+ -HuggingFace
+ -Scikit-learn
+ -PyTorch
+ -Matplotlib
+ -Seaborn
 
 
 # Author
@@ -70,8 +70,12 @@ Ikram Yadel
 
 
 
-#  requirements.txt
 
+---
+
+# 📄 requirements.txt
+
+```txt
 transformers
 datasets
 torch
